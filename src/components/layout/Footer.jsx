@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <Container className="bg-2nd pt-32 px-3 font-inter text-center py-4">
+    <Container className="bg-2nd pt-16 md:pt-32 px-3 font-inter text-center py-4">
       <h3 className=' text-white'>Meznur Rohoman</h3>
       <div className=' flex items-center justify-center mt-3'>
       <a href="https://github.com/MezanRH" className=' text-white mr-4 text-2xl'>
@@ -21,7 +21,7 @@ const Footer = () => {
       </a>
       <FaXTwitter className=' text-white text-2xl'/>
       </div>
-      <p className=' text-white mt-3'>© 2023 All rights reserved. A Family of Love & Affection.</p>
+      <p className=' text-white mt-3 text-xs'>© 2024 All rights reserved. A Family of Love & Affection.</p>
     </Container>
   )
 }

@@ -26,126 +26,126 @@ import Photo from '../assets/photoshop.png'
 const Skill = () => {
   return (
     <Container className="bg-2nd font-inter">
-      <h3 className=' text-white text-4xl font-semibold text-center mb-2'>Skill</h3>
-      <p className='text-white text-2xl text-center mb-3' >Here are some of my skills, on which I have worked</p>
-      <div className='grid grid-cols-2'>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Languages</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+      <h3 className=' text-white text-2xl md:text-4xl font-semibold text-center mb-2 mt-[-3px] md:mt-0'>Skill</h3>
+      <p className='text-white text-lg md:text-2xl text-center mb-3' >Here are some of my skills, on which I have worked</p>
+      <div className='grid grid-cols-1 md:grid-cols-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Languages</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={Html} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>HTML</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={Css} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>CSS</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Javascript} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Javascript</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 box-border mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 md:mr-2 mr-0'>
             <img src={Node} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Node Js</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 box-border mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Wordpress} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Wordpress</h4>
           </div>
           </div>
         </div>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Databases & Cloud</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Databases & Cloud</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={Firebase} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>Firebase</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={Mongo} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>MongoDB</h4>
           </div>
           </div>
         </div>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Libraries</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Libraries</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={react} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>React Js</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={express} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Express Js</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={redux} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Redux</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 md:mr-2 mr-0'>
             <img src={mui} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Material UI</h4>
           </div>
           </div>
         </div>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Frameworks</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Frameworks</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={next} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>Next js</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={bootstrap} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Bootstrap</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Tailwend} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Tailwind CSS</h4>
           </div>
           </div>
         </div>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Version Control & Deployment</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Version Control & Deployment</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={Git} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>Git</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={GitHub} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>GitHub</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Netlify} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Netlify</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 md:mr-2 mr-0'>
             <img src={GitHub} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>GitHub Pages</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Vercel} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Vercel</h4>
           </div>
           </div>
         </div>
-        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-4'>
-          <h4 className=' text-2xl text-center text-color font-bold'>Some More</h4>
-          <div className=' grid grid-cols-3 mt-3'>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+        <div className='border border-slate-300 hover:border-indigo-300 rounded m-3 p-2 md:p-4'>
+          <h4 className=' text-lg md:text-2xl text-center text-color font-bold'>Some More</h4>
+          <div className=' grid grid-cols-2 md:grid-cols-3 mt-1 md:mt-3'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 mr-2'>
             <img src={Vs} className=' h-12 w-10 p-2 rounded'/>
             <h4 className=' text-white mt-3'>VS Code</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded px-0 md:px-4 md:mr-2 mr-0'>
             <img src={Postman} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Postman</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 mr-2'>
             <img src={Figma} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Figma</h4>
           </div>
-          <div className='border border-slate-300 flex bg-black rounded px-4 mr-2 mt-2'>
+          <div className='border border-slate-300 flex bg-black rounded mt-1 md:mt-0 px-0 md:px-4 md:mr-2 mr-0'>
             <img src={Photo} className=' h-12 w-10 p-2'/>
             <h4 className=' text-white mt-3'>Photoshop</h4>
           </div>
